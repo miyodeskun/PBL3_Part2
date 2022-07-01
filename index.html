@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COMPONENT BASED DEVELOPMENT</title>
+    <script>
+        function equal(value) {
+            var x;
+            x = value;
+            document.getElementById('out2x').value = x;
+        }
+    </script>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        h1 {
+            font-family: verdana;
+            font-size: 200%;
+            text-align: center;
+            color: black;
+        }
+        p {
+            font-family: verdana;
+            color: black;
+            font-size: 120%;
+            text-align: center;
+        }
+        textarea{
+            font-family: verdana;
+        }
+    </style>
+</head>
+<body>
+    <h1>COMPONENT BASED DEVELOPMENT</h1>
+    <form>
+        <p><label>Problem Based Task 3 - Part 2</label></p>
+        <p><textarea rows="20" cols="30" type="text" name="" onkeyup="equal(this.value);"> </textarea>
+            &nbsp <textarea rows="20" cols="30" type="text" id="out2x" name="" readonly></textarea>
+        </p>
+        <br>
+    </form>
+</body>
+</html>
