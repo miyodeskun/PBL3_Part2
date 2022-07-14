@@ -3,52 +3,59 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 2rem;
 }
+
 h1 {
     font-family: verdana;
     font-size: 200%;
     text-align: center;
     color: black;
 }
+
 p {
     font-family: verdana;
     color: black;
     font-size: 120%;
     text-align: center;
 }
-textarea{
+
+textarea {
     font-family: verdana;
 }
 
-text{
-    font-family:Helvetica, Arial, sans-serif;
-    font-size:15px;
-    pointer-events:none;
+text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    pointer-events: none;
 }
-#chart{
-    position:center;
-    width:500px;
-    height:500px;
-    top:0;
-    left:0;
+
+#chart {
+    position: center;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
 }
-#question{
+
+#question {
     position: absolute;
-    width:400px;
-    height:250px;
-    top:0;
-    left:520px;
+    width: 400px;
+    height: 250px;
+    top: 0;
+    left: 520px;
 }
-#question h1{
+
+#question h1 {
     font-size: 50px;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: absolute;
     padding: 0;
     margin: 0;
-    top:138%;
-    -webkit-transform:translate(0,-50%);
-            transform:translate(0,-50%);
+    top: 138%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
 }
 
 p.date {
