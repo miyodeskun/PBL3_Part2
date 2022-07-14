@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <title>COMPONENT BASED DEVELOPMENT</title>
     <meta charset="utf-8">
@@ -7,25 +7,18 @@
 </head>
 <body>
     <h1>COMPONENT BASED DEVELOPMENT</h1>
-    <div>
-    <form>
-        <p><label>Problem Based Task 3 - Part 2</label></p>
-        <p><textarea rows="20" cols="30" type="text" name="" onkeyup="equal(this.value);"> </textarea>
-            &nbsp <textarea rows="20" cols="30" type="text" id="out2x" name="" readonly></textarea>
+        <p><label>Problem Based Task 3 - Part 2</label>
         </p>
-        <br>
-    </form>
-    <script> 
-        function equal(value) {
-            var x;
-            x = value;
-            document.getElementById('out2x').value = x;
-        }
-    </script>
-    </div>
-    <div>
+
     <div id="chart"></div>
-    <div id="question"><h1></h1></div>
+
+    <div id="question"><h1></h1>
+
+  <div><p class="date"><textarea rows="20" cols="30" type="text" name="" onkeyup=" equal(this.value);"></textarea>
+            <textarea rows="20" cols="30" type="text" id="out2x" name="" readonly></textarea>
+  </p></div>
+
+    </div>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         var padding = {top:20, right:40, bottom:0, left:0},
@@ -187,7 +180,15 @@
             return array;
         }
 
+        function equal(value) {
+            var x;
+            x = value;
+            document.getElementById('out2x').value = x;
+        }
     </script>
     </div>
+
+            </div>
 </body>
 </html>
+
